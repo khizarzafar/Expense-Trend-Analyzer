@@ -67,7 +67,7 @@ class TaskAnalyzer:
             status_counts[task["status"]] += 1
         print("\nTask Analysis:")
         print("Priority Counts:")
-        for priority, count in priority_counts.items():
+        for priority, count in priority_counts.  items():
             print(f"{priority}: {count}")
         print("Status Counts:")     
         for status, count in status_counts.items():
